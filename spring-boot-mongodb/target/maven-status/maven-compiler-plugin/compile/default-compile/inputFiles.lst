@@ -1,0 +1,9 @@
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/converters/ProductToProductForm.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/controllers/ProductController.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/commands/ProductForm.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/SpringBootMongodbApplication.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/converters/ProductFormToProduct.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/services/ProductService.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/repositories/ProductRepository.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/domain/Product.java
+/home/danielsmanioto/projetos/pessoais/ds-study-docker/spring-boot-mongodb/src/main/java/com/dsmanioto/mongo/services/ProductServiceImpl.java

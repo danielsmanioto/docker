@@ -1,0 +1,9 @@
+com/dsmanioto/mongo/repositories/ProductRepository.class
+com/dsmanioto/mongo/SpringBootMongodbApplication.class
+com/dsmanioto/mongo/converters/ProductToProductForm.class
+com/dsmanioto/mongo/services/ProductService.class
+com/dsmanioto/mongo/commands/ProductForm.class
+com/dsmanioto/mongo/controllers/ProductController.class
+com/dsmanioto/mongo/converters/ProductFormToProduct.class
+com/dsmanioto/mongo/domain/Product.class
+com/dsmanioto/mongo/services/ProductServiceImpl.class
