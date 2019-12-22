@@ -27,5 +27,5 @@ docker logs ds-mysql
 docker exec -it ds-mysql bash
 
 # referencias
-
 https://hub.docker.com/r/mysql/mysql-server/
+
