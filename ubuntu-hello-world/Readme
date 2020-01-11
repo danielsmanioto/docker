@@ -1,0 +1,7 @@
+# ubuntu - hello world with docker ( learning )
+
+docker build -t ubuntu-hello .
+
+docker run -it --rm ubuntu-hello
+
+
