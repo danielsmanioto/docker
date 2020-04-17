@@ -19,8 +19,14 @@ public class UserResource {
 	private UserService service;
 
 	@GetMapping
-	public Iterable<User> getAllUsers() {
+	public Iterable<User> findAllUsers() {
 		return service.findAll();
+	}
+	
+	@GetMapping("/{id}")
+	public User findById(@PathVariable Long id) {
+		Optional<User> user = service.findById(id);
+		return user.get();
 	}
 	
 	@DeleteMapping("/delete/{id}")
