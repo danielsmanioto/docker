@@ -16,12 +16,18 @@ docker ps
 docker ps --all
 
 [Acessar via container]
-docker exec -it database-mysql_db_1 mysql -uroot -p
+docker exec -it database-mysql--compose_db_1 -uroot -p
 
 [logs] 
-docker logs ds-mysql
-docker exec -it database-mysql_db_1 bash
+docker logs database-mysql--compose_db_1
+docker exec -it database-mysql--compose_db_1 bash
 
 # referencias
 https://docs.docker.com/compose/install/
 https://docs.docker.com/compose/gettingstarted/
+
+#remover stop
+
+docker ps
+dcker stop <id>
+docker rm <id>
