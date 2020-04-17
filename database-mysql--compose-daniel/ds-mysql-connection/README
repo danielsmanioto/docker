@@ -1,0 +1,17 @@
+#Ferramentas
+Java11
+Mysql
+
+# Para funcionar
+1) o serviço mysql deve estar rodando (ver passo na pasta anterior)
+2) deve ter um banco de dados dsmanioto criado
+3) verificar configirações de acesso ao banco estão iguals no application.properties
+
+# Como testar ?
+mvn clean install && mvn spring-boot:run
+
+curl http://localhost:8080/users
+curl -X DELETE http://localhost:8080/users/delete/1
+
+#Referencias
+https://spring.io/guides/gs/accessing-data-mysql/
