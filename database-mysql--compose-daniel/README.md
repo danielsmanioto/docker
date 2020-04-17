@@ -1,5 +1,8 @@
 1) procurar no google stack yaml mysql
-2) docker-compose -f stack.yml up
+2) 
+docker-compose -f stack.yml up
+ou de backgraund
+docker-compose -f stack.yml up -d  
 3) Ver logs
 
 docker ps 
