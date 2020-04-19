@@ -1,18 +1,14 @@
 package com.dsmanioto.shoppinglist.shoppinglist.model;
 
-import lombok.Builder;
-import lombok.Getter;
-import org.springframework.cache.annotation.Cacheable;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
-@Cacheable
-@Getter
-@Builder
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class ShoppingList {
 	
-	private long id;
 	private String item;
-	private LocalDateTime dateRegistry;
 	
 }

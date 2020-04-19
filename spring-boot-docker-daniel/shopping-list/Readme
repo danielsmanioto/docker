@@ -29,5 +29,6 @@ docker exec -ti shopping-list /bin/sh
 
 # Software working and manual test
 
-http://localhost:8080/greeting
-http://localhost:8080/greeting?name=daniel
+curl http://localhost:8080/shopping-list
+
+and FOR HAVE MORE, you can use import postman project in this repository /postman-collections .
