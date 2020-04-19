@@ -1,0 +1,33 @@
+# Spring-boot with Docker
+Follow spring docs tutorial for create and test this app.
+
+# References
+https://spring.io/guides/topicals/spring-boot-docker/
+https://spring.io/guides/gs/rest-service/
+https://spring.io/guides/gs/spring-boot-docker/
+https://spring.io/guides
+https://start.spring.io/
+
+https://hub.docker.com/_/adoptopenjdk
+
+# Tecnologies
+Jdk11
+Maven
+Caching
+Lombok -> https://projectlombok.org/features/GetterSetter
+
+# Local
+
+mvn clean-install spring-boot:run
+
+# Deploy
+
+sh build.sh
+sh run.sh
+
+docker exec -ti shopping-list /bin/sh
+
+# Software working and manual test
+
+http://localhost:8080/greeting
+http://localhost:8080/greeting?name=daniel
