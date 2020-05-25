@@ -1,0 +1,19 @@
+# Instaling
+
+docker run --name some-redis -d redis
+
+docker ps
+
+docker stop some-redis
+docker rm some-redis
+
+# Using
+
+docker exec -it some-redis sh
+
+redis-cli
+
+# References
+
+https://hub.docker.com/_/redis/
+https://markheath.net/post/exploring-redis-with-docker
