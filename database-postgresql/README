@@ -1,0 +1,14 @@
+#Using
+
+`docker-compose up --build`
+
+`docker-compose down`
+
+# Acessing
+`docker exec -it nome-container bash`
+
+`psql -U root` or postgres
+
+# References
+
+https://hub.docker.com/_/postgres
