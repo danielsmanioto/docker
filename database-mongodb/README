@@ -1,0 +1,21 @@
+
+# mongodb
+Image mongo db, using docker compose
+
+
+# Using
+
+`docker-compose up --build`
+
+`docker-compose down`
+
+`docker exec -it some-mongo bash`
+
+`docker logs some-mongo`
+
+# Using mongodb
+
+http://0.0.0.0:8081/
+
+# References
+https://hub.docker.com/_/mongo
