@@ -17,5 +17,19 @@ Image mongo db, using docker compose
 
 http://0.0.0.0:8081/
 
+# Acessing mongodb via Docker 
+
+`docker exec -it database-mongodb_mongo_1 bash`
+
+mongo --username smanioto --password --authenticationDatabase admin
+
+`mongo`
+
 # References
 https://hub.docker.com/_/mongo
+https://docs.mongodb.com/manual/reference/method/db.auth/ 
+
+https://docs.google.com/document/d/15VVu6bGw_Usmmz6aMkPjuwQV-VjZbPE58yU_LbMDUBE/edit
+
+
+
