@@ -23,6 +23,12 @@ http://0.0.0.0:8081/
 
 `mongo --username smanioto --password --authenticationDatabase admin` or `mongo`
 
+# Acessing mongodb via MongoDBComprass (Instaled)
+
+https://www.mongodb.com/products/compass
+
+mongodb://127.0.0.1:27017/mongo-api'
+
 # References
 https://hub.docker.com/_/mongo
 https://docs.mongodb.com/manual/reference/method/db.auth/ 
