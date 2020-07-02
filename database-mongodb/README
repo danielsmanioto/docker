@@ -21,9 +21,13 @@ http://0.0.0.0:8081/
 
 `docker exec -it database-mongodb_mongo_1 bash`
 
-mongo --username smanioto --password --authenticationDatabase admin
+`mongo --username smanioto --password --authenticationDatabase admin` or `mongo`
 
-`mongo`
+# Acessing mongodb via MongoDBComprass (Instaled)
+
+https://www.mongodb.com/products/compass
+
+mongodb://127.0.0.1:27017/mongo-api'
 
 # References
 https://hub.docker.com/_/mongo
