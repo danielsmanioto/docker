@@ -8,6 +8,10 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: smanioto
       MONGO_INITDB_ROOT_PASSWORD: smanioto
+    ports:
+      - 27017:27017
+    expose:
+      - 27017
 
   mongo-express:
     image: mongo-express
