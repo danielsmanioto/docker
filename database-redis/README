@@ -1,19 +1,25 @@
-# Instaling
+# Using omly docker image
+`docker run --name some-redis -d redis`
+`docker ps`
 
-docker run --name some-redis -d redis
+`docker stop some-redis`
+`docker rm some-redis`
 
-docker ps
+# Using docker compose 
 
-docker stop some-redis
-docker rm some-redis
+`docker-compose up --build`
 
-# Using
+`docker-compose down`
 
-docker exec -it some-redis sh
+# Using 
+`docker exec -it some-redis sh`
 
-redis-cli
+`redis-cli`
 
 # References
 
 https://hub.docker.com/_/redis/
 https://markheath.net/post/exploring-redis-with-docker
+
+
+
