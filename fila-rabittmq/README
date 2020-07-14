@@ -1,0 +1,15 @@
+# Commands
+
+  `docker-compose up --build`
+
+  `docker-compose down`
+
+  `docker logs fila-rabittmq_rabbitmq_1`
+  
+  `docker exec -it fila-rabittmq_rabbitmq_1 bash`
+
+# References
+  <ul>
+    <li>https://hub.docker.com/r/bitnami/rabbitmq/</li>
+    <li>https://spring.io/guides/gs/messaging-rabbitmq/</li>
+  </li>
