@@ -1,0 +1,22 @@
+# Up Docker
+
+`docker-compose up --build`
+
+`docker-compose down`
+
+# Using Cassandra container
+
+`docker exec -it database-cassandra_cassandra-node1_1 bash`
+
+
+# Logs
+
+`docker logs database-cassandra_cassandra-node1_1`
+
+
+# References
+
+https://www.tutorialspoint.com/cassandra/cassandra_shell_commands.htm
+
+https://hub.docker.com/r/bitnami/cassandra/
+
